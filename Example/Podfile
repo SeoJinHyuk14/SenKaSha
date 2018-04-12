@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SenKaSha_Example' do
+  pod 'SenKaSha', :path => '../'
+
+  target 'SenKaSha_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
